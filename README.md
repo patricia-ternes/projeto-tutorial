@@ -14,7 +14,17 @@ Aprendendo a utilizar o Git e o Github
 		* no terminal --> entrar na pasta do projeto --> $ git push
 		* Digitar usuario/login do GitHub
 
-5 - No processo acima as mudancas foram realizadas no branch "master". Para mudar o branch:
+
+No processo acima as mudancas foram realizadas no branch "master". O ideal eh realizar as mudancas em outros branchs.
+
+5 - Para criar um branch no Git (pc):
 		* git checkout -b nomeBrach
 
-6 - Repetir passos 2, 3, 4 para adicionar mudancas no novo branch
+6 - Para subir o branch pro GitHub:
+		* repetir passos 2 e 3
+		* no terminal --> entrar na pasta do projeto --> $ git push origin nomeBrach
+
+7 - Outros comandos do branch - Git:
+		* Para listar branchs existente no Git: $ git branch -a
+		* Para trocar de branch (existentes): $ git checkout nomeBrach
+		* Para deletar um branch: $ git branch -d nomeBrach
