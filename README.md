@@ -36,3 +36,4 @@ O ideal eh realizar as mudancas em outros branchs.
 		* Para trocar de branch (existentes) no Git: $ git checkout nomeBrach
 		* Para deletar um branch no Git: $ git branch -d nomeBrach
 		* Para deletar um branch no GitHub: $ git push origin :nomeBrach
+		* Para sincronizar o projeto local a partir do GitHub: $ git pull
