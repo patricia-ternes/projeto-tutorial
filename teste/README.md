@@ -13,3 +13,18 @@ where:
 * <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;(x',&space;y')" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;(x',&space;y')" title="(x', y')" /></a>: pedestrian (horizontal, vertical) position before transformation;
 * <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;(x,&space;y)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;(x,&space;y)" title="(x, y)" /></a>: pedestrian (horizontal, vertical) position after transformation;
 * <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;h'" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;h'" title="h'" /></a>: height of the unprocessed image;
+
+### Folder: GCT_final_real_data
+* Trajectories organized by frames;
+* Activation file with informations about each pedestrian (pedestrian ID, activation time, entance gate, exit gate);
+
+# Grand Central Terminal (NewYork City) data
+
+The data used here have been inferred from a video sequence recorded at GCT. 
+
+## Original video 
+The [original video](http://www.ee.cuhk.edu.hk/~xgwang/grandcentral.html) is 33:20-minutes  long  at  25fps  with  a  resolution  of 720×480.
+
+
+## Trajectories
+The  trajectories  were determined by a [Kanade-Lucas-Tomasi (KLT) keypoint tracker](http://cygnus-x1.cs.duke.edu/courses/spring06/cps296.1/handouts/lucas_kanade.pdf).
