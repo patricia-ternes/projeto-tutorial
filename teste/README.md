@@ -5,7 +5,7 @@ A interval of the Grand Central Terminal (NewYork City) data was selected and pr
 From frame 20000 to frame 23000
 
 ## Perspective correction
-$$ (x, y) = (x', y')[1 + \delta]$$
+<a href="https://www.codecogs.com/eqnedit.php?latex=(x,&space;y)&space;=&space;(x',&space;y')[1&space;&plus;&space;\delta]" target="_blank"><img src="https://latex.codecogs.com/svg.latex?(x,&space;y)&space;=&space;(x',&space;y')[1&space;&plus;&space;\delta]" title="(x, y) = (x', y')[1 + \delta]" /></a>
 
 * $$\delta=y'/h'$$
 * $$x$$': pedestrian horizontal position before transformation
